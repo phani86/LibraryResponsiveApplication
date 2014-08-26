@@ -1,0 +1,103 @@
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
+
+body{
+	background: #D8CEAA;
+}
+.col-xs-3
+{
+	padding:10px;
+	
+}
+
+.container
+{
+	margin:0;
+	padding:0;
+}
+
+h1
+{
+display:block;
+}
+h3
+{
+	margin-top:40px;
+}
+.submit
+{
+	float:left;
+}
+#userId{
+	width: 100%;
+}
+#password{
+	width: 100%;
+}
+
+.menu
+{
+	display:inline-block;
+}
+
+.form-control {
+  padding-left: 10px;
+}
+
+.form-control + .glyphicon {
+  
+}
+.input-group
+{
+	text-align: center;
+}
+
+#searchText
+{
+	width:100%;
+}
+#glys
+{
+	
+}
+#search 
+{
+
+}
+
+#signIn
+{
+float:right;
+
+margin-top:10px;
+margin-left: 10px;
+position:relative;
+}
+#signUp
+{
+float:right;
+margin-top:10px;
+}
+
+.navbar-default {
+    background-color: #000000;
+}
+
+.navbar .navbar-inverse
+{
+	width:100%;
+}
+
+
+.panel-heading {
+    cursor: pointer;
+}
+.containerSearch {display: table; height: 100%; position:absolute; overflow: hidden;width:100%;}
+.helper {#position: absolute; #top: 50%;display: table-cell; vertical-align: middle;}
+.content {#position: relative; #top: -50%;margin:0 auto;width:220px;}
+
+#welcome
+{
+
+    margin-top:30px;
+    float:right;
+}
