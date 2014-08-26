@@ -128,7 +128,7 @@ while($row=mysql_fetch_array($result))
 $path2= "/"   ; 
 $path3=$row['image'];
 	echo "<div class='col-xs-12'><a href=\"title.php?title=".$row['title']."\"><img src=$path1$path2$path3 width='150' height='150' id='itemImage'/></a></div>";	
-    echo "$path1$path2$path3";
+   // echo "$path1$path2$path3";
     echo "<div class='col-xs-12'><a id='itemTitle' class='itemTitle' href=\"title.php?title=".$row['title']."\">".$row['title']."</a>
     by<p>".$row['author']."</p></div>";
 
