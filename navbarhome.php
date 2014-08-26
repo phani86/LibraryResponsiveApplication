@@ -22,8 +22,6 @@
        <ul class="nav navbar-nav">
        
 <li><a href="home.php"><span class="glyphicon glyphicon-home"></span></a></li> 
-<li><img src="images/logo2.jpg" height="50" width="50"></li>
-
 </ul>
 </div>
 </div>
