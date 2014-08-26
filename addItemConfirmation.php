@@ -44,8 +44,8 @@ require("itemClass.php");
 	
 	try
 	{
-	mysql_connect("localhost","root","");	
-	mysql_select_db("LibraryData");
+	mysql_connect("127.8.48.130:3306","adminyfbkrFb","Ceb9vA6uka3N");	
+	mysql_select_db("libapp");
 $i=new Item($itemTypeId,$isbn,$issn,$itemCategoryId,$title,$author,$publisher,$pubDate,$copies,$availabilityStatus,$image);
 
 	if($i->ItemTypeId==1)

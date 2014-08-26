@@ -67,10 +67,8 @@ if(count($signUpFormErrors) != 0) {
 	
 	try
 	{
-	mysql_connect("localhost","root","");	
-
-	mysql_select_db("LibraryData");
-
+	mysql_connect("127.8.48.130:3306","adminyfbkrFb","Ceb9vA6uka3N");	
+	mysql_select_db("libapp");
 $u=new User($userId,$forename,$surname,$emailId,$password,$userTypeId);
 
 	

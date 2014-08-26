@@ -44,9 +44,8 @@ $title = $_GET['title'];
 $new = str_replace('%20',' ', $title);
 
 
- mysql_connect("localhost", "root", "") or die("Could not find the server");
-
- mysql_select_db("LibraryData") or die("Could not find the database");
+ mysql_connect("127.8.48.130:3306","adminyfbkrFb","Ceb9vA6uka3N");	
+	mysql_select_db("libapp");
 $result = mysql_query("SELECT * FROM item where title=('$new')");	
 
 ?>

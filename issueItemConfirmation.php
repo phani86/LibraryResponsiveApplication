@@ -21,8 +21,8 @@ $date = explode('/', $_POST['dueDate']);
 try{
 
 
-	mysql_connect("localhost","root","");	
-	mysql_select_db("LibraryData");
+	mysql_connect("127.8.48.130:3306","adminyfbkrFb","Ceb9vA6uka3N");	
+	mysql_select_db("libapp");
 	$ui=new UserItem($userId,$itemId,$issuedDate,$dueDateNew);
 
 	

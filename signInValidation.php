@@ -34,9 +34,8 @@ $password=trim($_POST['password']);
 
 try
 {
-mysql_connect("localhost", "root", "");	
-mysql_select_db("LibraryData");
-
+mysql_connect("127.8.48.130:3306","adminyfbkrFb","Ceb9vA6uka3N"); 
+  mysql_select_db("libapp");
 
 $result = mysql_query("Select id,forename,password,usertypeId from user where id='$userId' and password='$password'");
 $row =mysql_fetch_array( $result );
