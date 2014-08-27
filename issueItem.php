@@ -97,7 +97,8 @@ h2
         
   <label for="issuedDate">Issued Date</label></div>      
       <div class="col-xs-12">
-  <input type="text"  class="form-control" placeholder="Issued Date" id="issuedDate" name="issuedDate" readonly="readonly" value="<?php echo date('Y-m-d');?>" />
+  <input type="text"  class="form-control" placeholder="Issued Date" id="issuedDate" name="issuedDate" readonly="readonly" value="<?php date_default_timezone_set('America/Toronto');
+echo date('Y-m-d');?>" />
  <br />
     </div>
     </div>
