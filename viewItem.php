@@ -131,7 +131,7 @@ echo "<td div class='col-xs-1'>" .$row['availabilityStatus']  ."</div></td>";
 $path1="images";
 $path2= "/" ; 
 $path3=$row['image'];
-echo "<td div='col-xs-1'><img src=$path1.$path2$path3 width='75' height='75' /><br /><br /></td>";	
+echo "<td div='col-xs-1'><img src=$path1$path2$path3 width='75' height='75' /><br /><br /></td>";	
 echo "</tr>";
 
 }

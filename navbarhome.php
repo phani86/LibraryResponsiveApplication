@@ -21,7 +21,7 @@
   
        <ul class="nav navbar-nav">
        
-<li><a href="home.php"><span class="glyphicon glyphicon-home"></span></a></li> 
+<li><a href="home.php"><span class="glyphicon glyphicon-home"></span></a></li> x
 </ul>
 </div>
 </div>
