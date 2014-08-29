@@ -8,6 +8,12 @@ taken in their corresponding accounts.
 
 •	Developed using Bootstrap 3.2.0,HTML, CSS, JavaScript,Ajax and JQuery as Front-end.
 •	Developed using PHP as Server Side Script and MySQL as Back-end Database.
+•	Used XAMPP as Server environment to run the application locally.
+•	Application hosted on OpenShift cloud server using Git.
+•	Application Link:  http://libapp-libraryapp.rhcloud.com/home.php
+
+
+
 
 Features
 
